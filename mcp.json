@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.foxformtech/foxform-mcp",
+  "description": "Create forms with AI and read their responses. Build a form from a prompt, publish it, and pull responses and analytics back into the conversation.",
+  "version": "1.0.0",
+  "websiteUrl": "https://foxform.app",
+  "repository": {
+    "url": "https://github.com/foxformtech/foxform-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.foxform.app/mcp"
+    }
+  ]
+}
